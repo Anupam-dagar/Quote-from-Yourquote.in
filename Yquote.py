@@ -27,6 +27,9 @@ class Yquote():
         
         return quotes_list[random.randint(0, len(quotes)-1)]
 
-yourquote = Yquote()
-quote = yourquote.get_quote('2019')
-print(quote)
+
+# Usage
+
+# yourquote = Yquote()
+# quote = yourquote.get_quote('2019')
+# print(quote)
